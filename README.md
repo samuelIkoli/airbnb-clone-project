@@ -30,25 +30,25 @@ Users have an ID, auser can have multiple properties, a booking belongs to a pro
 - Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 ## API Security
-### Authentication & Authorization: Ensure users are authenticated and only allowed to access actions based on their assigned roles (e.g., guest, host, admin).
+- Authentication & Authorization: Ensure users are authenticated and only allowed to access actions based on their assigned roles (e.g., guest, host, admin).
 
-### Input Validation & Sanitization: Validate and sanitize all user inputs to prevent SQL injection, XSS, and other malicious payloads.
+- Input Validation & Sanitization: Validate and sanitize all user inputs to prevent SQL injection, XSS, and other malicious payloads.
 
-### Database & Query Protection: Use ORM or parameterized queries and restrict sensitive fields in API responses to prevent unauthorized data access.
+- Database & Query Protection: Use ORM or parameterized queries and restrict sensitive fields in API responses to prevent unauthorized data access.
 
-### Secure File Uploads: Limit uploads to safe file types, scan for viruses, and serve files through a secure CDN or media server.
+- Secure File Uploads: Limit uploads to safe file types, scan for viruses, and serve files through a secure CDN or media server.
 
-### HTTPS Everywhere: Encrypt all communication using TLS and enforce HTTPS using HTTP Strict Transport Security (HSTS).
+- HTTPS Everywhere: Encrypt all communication using TLS and enforce HTTPS using HTTP Strict Transport Security (HSTS).
 
-### Session Management: Use secure, HttpOnly, SameSite cookies and implement session timeout to reduce the risk of hijacking.
+- Session Management: Use secure, HttpOnly, SameSite cookies and implement session timeout to reduce the risk of hijacking.
 
-### Payment Security (PCI Compliance): Handle payments through PCI-compliant providers like Stripe and verify webhook authenticity.
+- Payment Security (PCI Compliance): Handle payments through PCI-compliant providers like Stripe and verify webhook authenticity.
 
-### Secure Messaging System: Filter message content, prevent sharing of contact details, and protect against spam or abuse.
+- Secure Messaging System: Filter message content, prevent sharing of contact details, and protect against spam or abuse.
 
-### API Rate Limiting & Abuse Protection: Limit requests per user/IP to prevent brute-force attacks, scraping, and abuse.
+- API Rate Limiting & Abuse Protection: Limit requests per user/IP to prevent brute-force attacks, scraping, and abuse.
 
-### Monitoring & Incident Response: Log errors, monitor suspicious activity, and maintain audit trails to quickly detect and respond to threats.
+- Monitoring & Incident Response: Log errors, monitor suspicious activity, and maintain audit trails to quickly detect and respond to threats.
 
 
 
