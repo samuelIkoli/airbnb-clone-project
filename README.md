@@ -50,8 +50,10 @@ Users have an ID, auser can have multiple properties, a booking belongs to a pro
 
 - Monitoring & Incident Response: Log errors, monitor suspicious activity, and maintain audit trails to quickly detect and respond to threats.
 
+## CI/CD Pipeline
+CI/CD pipelines, which stand for Continuous Integration and Continuous Deployment, are automated workflows used to streamline the process of building, testing, and deploying code. Continuous Integration ensures that every code change is automatically tested and integrated into the main project without breaking existing functionality. Continuous Deployment goes a step further by automatically pushing these verified changes to staging or production environments.
 
-
+CI/CD is important because it helps the team release new features and updates quickly and reliably. It improves code quality by catching errors early through automated testing and reduces the risk of bugs reaching users. CI/CD also enhances team collaboration by allowing multiple developers to contribute without conflicts and eliminates manual deployment errors through automation. Overall, it ensures faster, safer, and more consistent delivery of product updates.
 
 
 
