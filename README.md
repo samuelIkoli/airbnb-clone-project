@@ -7,7 +7,7 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
 - QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
-## Tech Stack
+## Technology Stack
 - Django: A high-level Python web framework used for building the RESTful API.
 - Django REST Framework: Provides tools for creating and managing RESTful APIs.
 - PostgreSQL: A powerful relational database used for data storage.
@@ -16,3 +16,5 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - Redis: Used for caching and session management.
 - Docker: Containerization tool for consistent development and deployment environments.
 - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+## Database Design
