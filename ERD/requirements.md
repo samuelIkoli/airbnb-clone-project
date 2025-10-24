@@ -87,4 +87,4 @@ email in the User table.
 property_id in the Property and Booking tables.
 booking_id in the Booking and Payment tables.
 
-![alt text](airbnb_er_diagram.png)
+![alt text](airbnb_er.png)
